@@ -3,7 +3,7 @@ import { Employee } from "./Employee.js";
 
 // Selects an element of index.html in which to insert representations of employees
 
-const contentTarget = document.querySelector(".container")
+const contentTarget = document.querySelector(".employeeDiv")
 
 export const EmployeeList = () => {
 
@@ -22,6 +22,7 @@ export const EmployeeList = () => {
 // Inserting the employeeHTML into the contentTarget element
 
         contentTarget.innerHTML += employeeHtml
+        console.log("Right here")
     }
 
 }

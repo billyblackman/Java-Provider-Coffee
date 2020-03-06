@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.equipmentSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 15em;
+    
+}
+
+.employeeSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid green;
+    width: 15em;
+}
