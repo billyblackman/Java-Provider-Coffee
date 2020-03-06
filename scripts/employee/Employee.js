@@ -1,6 +1,6 @@
 export const Employee = (employeeObject) => {
     return `
-    <section>
+<section class="employeeSection">
     <h4>${employeeObject.firstName} ${employeeObject.lastName}</h4>
     <ul>
         <li>Employee ID: ${employeeObject.id}</li>
