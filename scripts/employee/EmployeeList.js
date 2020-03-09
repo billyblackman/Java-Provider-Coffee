@@ -22,7 +22,6 @@ export const EmployeeList = () => {
 // Inserting the employeeHTML into the contentTarget element
 
         contentTarget.innerHTML += employeeHtml
-        console.log("Right here")
     }
 
 }
